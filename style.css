@@ -1,0 +1,49 @@
+body {
+    background-color: #B1D4E0;
+}
+
+.container {
+    padding: 20px;
+    background-color: #B1D4E0;
+}
+
+h1{
+    color: #0C2D48;
+    font-size: 50px;
+    text-align: center;
+}
+
+.center {
+    margin: 4px 2px;
+    position: absolute;
+    top: 15%;
+    left: 50%
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-lg{
+    font-family: Verdana;
+    font-size: 20px;
+    background-color: #155026;
+    color: #0C2D48;
+    padding: 20px 50px;
+}
+
+.btn-info{
+    font-family: Verdana;
+    font-size: 15px;
+    background-color: #155026;
+    color: #0C2D48;
+    padding: 20px 50px;
+}

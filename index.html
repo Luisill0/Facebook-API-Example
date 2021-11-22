@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook API Example</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+    <h1>
+        Ejemplo de uso de la API de Facebook
+    </h1>
+<body onload = "onPageLoad()">
+    <div class="container">
+        <div id="loginPromt" class="row">
+            <div class="col">
+                <input class="btn-lg" type="button" onclick="requestAuthorization()" value="Login"><br/>
+            </div>
+        </div>
+    </div>
+    <div id="authApproved" class="row">
+        <div class="col">
+            <input class = "btn-info" type="button" onclick="getInformation()" value="Ver Informacion"><br/>
+        </div>
+        <div id="dataShwon" class="container">
+            <ul id = "list"></ul>
+        </div>
+    </div>
+</body>
+</html>
